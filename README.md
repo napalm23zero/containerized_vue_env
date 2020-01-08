@@ -3,10 +3,10 @@
 You can develop and debug inside a container with no need to install anything on your local machinebut docker and VSCode.
 
 <div align="center">
-  <img width="256" height="256" src="./docs/images/vscode-icon.png">
-  <img  height="256" src="./docs/images/docker-icon.png">
-  <img  height="256" src="./docs/images/compose-icon.png">
-  <img width="256" height="256" src="./docs/images/vue-icon.png">
+  <img width="128" height="128" src="./docs/images/vscode-icon.png">
+  <img  height="128" src="./docs/images/docker-icon.png">
+  <img  height="128" src="./docs/images/compose-icon.png">
+  <img width="128" height="128" src="./docs/images/vue-icon.png">
 </div>
 
 ## How I made it?
