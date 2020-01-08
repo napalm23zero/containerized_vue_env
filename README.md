@@ -4,8 +4,8 @@ You can develop and debug inside a container with no need to install anything on
 
 <div align="center">
   <img width="200" height="200" src="./docs/images/vscode-icon.png">
-  <img  height="200" src="./docs/images/docker-icon.png">
-  <img  height="200" src="./docs/images/compose-icon.png">
+  <img height="200" src="./docs/images/docker-icon.png">
+  <img height="200" src="./docs/images/compose-icon.png">
   <img width="200" height="200" src="./docs/images/vue-icon.png">
 </div>
 
