@@ -24,3 +24,24 @@ Dockerfile is a text file with command that DockerEngine will use to assemble yo
 - RUN - This instruction runs commands on image builder just like a bash command, on this step we can update or customize the image thae will be build.
 - EXPOSE - This instruction informs Docker that the container listens on the specified network ports at runtime. In other words, here you will put the port of the container that you want to be exposed to other containers.
 
+```Dockerfile
+# Our base image will be offical Node Alpine image
+# alpine linux images are famous for been very light and stable
+FROM node:lts-alpine
+
+# Its me :)
+LABEL maintainer="Rodrigo Dantas"
+LABEL email="rodrigodantas.91@gmail.com"
+LABEL web="napalm23zero.github.io"
+
+# Update image and install needed packages
+RUN apk add --update 
+RUN apk add --no-cache git python 
+
+# Install Vue CLI (npm and node are pre-installed on this image)
+RUN npm install -g @vue/cli
+
+# Port that will be exposed from container
+EXPOSE 3000
+
+```

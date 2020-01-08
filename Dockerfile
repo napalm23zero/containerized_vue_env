@@ -1,8 +1,8 @@
 FROM node:lts-alpine
 
 LABEL maintainer="Rodrigo Dantas"
-
-USER root
+LABEL email="rodrigodantas.91@gmail.com"
+LABEL web="napalm23zero.github.io"
 
 # Update image and install needed packages
 RUN apk add --update 
